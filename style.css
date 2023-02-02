@@ -1,0 +1,102 @@
+body.h-80vh {
+    height: 80vh;
+}
+body.h-100vh {
+    height: 100vh;
+}
+.stars {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-image: url("/images/backgrounds/StarfieldSimulation.gif");
+    background-size: cover;
+    opacity: 0.4;
+    background-position: center center;
+    filter: blur(2px);
+}
+.container {
+    height: 100%;
+}
+.content {
+    z-index: 3;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
+.logo img {
+    width: 400px;
+    max-width: 100%;
+}
+.form-login {
+    width: 400px;
+    max-width: 100%;
+    margin-top: 20px;
+}
+.form-register {
+    margin-top: 60px;
+    width: 400px;
+    max-width: 100%;
+}
+.loadingMask {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 10;
+}
+.background {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-size: cover;
+    background-position: center center;
+}
+.background-0 {
+    background-image: url(/images/backgrounds/130130_gunny2wallpaper01.jpg);
+}
+.background-1 {
+    background-image: url(/images/backgrounds/130130_gunny2wallpaper02.jpg);
+}
+.background-2 {
+    background-image: url(/images/backgrounds/130130_gunny2wallpaper03.jpg);
+}
+.background-3 {
+    background-image: url(/images/backgrounds/130130_gunny2wallpaper04.jpg);
+}
+.background-4 {
+    background-image: url(/images/backgrounds/130130_gunny2wallpaper06.jpg);
+}
+.background-5 {
+    background-image: url(/images/backgrounds/130130_gunny2wallpaper07.jpg);
+}
+.background-6 {
+    background-image: url(/images/backgrounds/130130_gunny2wallpaper09.jpg);
+}
+.background-7 {
+    background-image: url(/images/backgrounds/130130_gunny2wallpaper10.jpg);
+}
+.playarea {
+    width: 1024px;
+    height: 625px;
+    background-image: url(/images/playpagenew.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.playScreen {
+    width: 1000px;
+    height: 600px;
+}
+
+@media(max-width: 500px) {
+    .form-register {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
